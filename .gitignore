@@ -1,0 +1,55 @@
+# Python cache and build outputs
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local runtime data
+data/
+logs/
+*.log
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.jsonl
+
+# Secrets and local configuration
+.env
+.env.*
+bot_config.toml
+model_config.toml
+**/config.toml
+**/config.local.toml
+**/*secret*
+**/*token*
+
+# MaiBot and local integration artifacts
+MaiBot-*/
+MaiBot-*-latest/
+maibot_runtime/
+local_chat_flow_runs/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+

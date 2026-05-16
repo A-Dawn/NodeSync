@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "id": "nodesync.coordinator",
+  "version": "0.1.0",
+  "name": "NodeSync",
+  "description": "多 Bot 协作与按需推进插件，支持 server/client 模式和私有上下文注入。",
+  "author": {
+    "name": "NodeSync Contributors",
+    "url": "https://github.com/Mai-with-u/MaiBot"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/Mai-with-u/MaiBot",
+    "homepage": "https://github.com/Mai-with-u/MaiBot",
+    "documentation": "https://github.com/Mai-with-u/MaiBot"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.0.0"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "send.text",
+    "message.get_recent",
+    "llm.generate",
+    "llm.get_available_models",
+    "config.get"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  }
+}

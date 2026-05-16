@@ -1,0 +1,55 @@
+{
+  "manifest_version": 1,
+  "id": "A-Dawn.NodeSync",
+  "name": "NodeSync",
+  "version": "0.1.0",
+  "description": "为多个 MaiBot 提供节点桥梁，支持 server/client 协作、消息对齐、按需推进和私有上下文注入。",
+  "author": {
+    "name": "A-Dawn",
+    "url": "https://github.com/A-Dawn"
+  },
+  "license": "GPL-3.0-only",
+  "host_application": {
+    "min_version": "0.12.2",
+    "max_version": "1.0.0"
+  },
+  "homepage_url": "https://github.com/A-Dawn/NodeSync",
+  "repository_url": "https://github.com/A-Dawn/NodeSync",
+  "keywords": [
+    "maibot",
+    "multi-bot",
+    "coordination",
+    "context-injection",
+    "conversation-bridge"
+  ],
+  "categories": [
+    "External Integration",
+    "Data Analysis & Insights"
+  ],
+  "default_locale": "zh-CN",
+  "plugin_info": {
+    "is_built_in": false,
+    "plugin_type": "multi_bot_coordination",
+    "components": [
+      {
+        "type": "service",
+        "name": "nodesync_server",
+        "description": "内置 HTTP 与 WebSocket 协调服务"
+      },
+      {
+        "type": "client",
+        "name": "nodesync_client",
+        "description": "连接协调服务并执行消息上报、上下文对齐和群内推进"
+      }
+    ],
+    "features": [
+      "多 Bot 节点桥梁",
+      "server/client 双模式",
+      "LLM 话题停滞判断",
+      "按需群内推进",
+      "私有上下文注入",
+      "本地注入记录持久化",
+      "MaiBot 0.12.2 与 1.0 双版本适配"
+    ]
+  }
+}

@@ -4,13 +4,16 @@
   "version": "0.1.0",
   "description": "多 Bot 协作与按需推进插件，支持 server/client 模式和私有上下文注入。",
   "author": {
-    "name": "NodeSync Contributors"
+    "name": "A-Dawn",
+    "url": "https://github.com/A-Dawn"
   },
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "host_application": {
     "min_version": "0.12.2",
     "max_version": "0.12.99"
   },
+  "homepage_url": "https://github.com/A-Dawn/NodeSync",
+  "repository_url": "https://github.com/A-Dawn/NodeSync",
   "keywords": [
     "maibot",
     "multi-bot",

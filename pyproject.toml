@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "Multi-bot coordination and need-based in-topic progression for MaiBot."
 requires-python = ">=3.11"
 license = { file = "LICENSE" }
+authors = [
+    { name = "A-Dawn" },
+]
 classifiers = [
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Programming Language :: Python :: 3",
@@ -12,6 +15,11 @@ classifiers = [
 dependencies = [
     "aiohttp>=3.9",
 ]
+
+[project.urls]
+Homepage = "https://github.com/A-Dawn/NodeSync"
+Repository = "https://github.com/A-Dawn/NodeSync"
+Issues = "https://github.com/A-Dawn/NodeSync/issues"
 
 [tool.ruff]
 line-length = 120
